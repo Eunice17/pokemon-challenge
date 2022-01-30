@@ -35,7 +35,6 @@ const verDetalle = (nodo, urlDetalle, pokemonName) => {
                 });
                 cardPost.appendChild(bodyPost);
                 rowPost.appendChild(cardPost);
-                console.log(res, urlDetalle);
             });
         });
     });
